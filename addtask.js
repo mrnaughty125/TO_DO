@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 let add = document.getElementById('addbtn');
 add.addEventListener('click', () => {
     let p = document.getElementById('inp').value;
+    document.getElementById('inp').value="";
     if (p == "") {
         alert("Add a Valid task");
     } else {
