@@ -89,3 +89,9 @@ border-radius: 10px;
     color:blue;;
     
 }
+
+
+.completed-task {
+    text-decoration: line-through; 
+    color: #888;
+}
